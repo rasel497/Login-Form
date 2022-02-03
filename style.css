@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@100&display=swap");
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sarabun', sans-serif;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background:#282F38;
+    color: white;
+    
+
+}
+.container{
+    position: relative;
+    display: flex;
+    width: 350;
+    min-height: 500;
+    align-items: center;
+    justify-content: center;
+    background: rgba(25, 1, 44, 0.856);
+    /* box-shadow: 25px 25px 75px rgba(0,0,0,0.25), 10px 10px 70px rgba(0, 0, 0, 0.25), 
+    inset 5px 5px 10px rgba(0, 0, 0, 0.5),
+    inset 5px 5px 10px rgba(0, 0, 0, 0.5),
+    inset -5px -5px 15px rgba(0, 0, 0, 0.75), ; */
+    box-shadow: 25px 25px 80px blanchedalmond;
+    border-radius: 30px;
+    padding: 50px;
+}
+.container h3{
+    color:white;
+    font-weight: 600;
+    font-size: 20px;
+    font: bolder;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 29px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-left: 4px;
+    line-height: 1em;
+
+}
+
+/* .inputBox .box{
+    display: flex;
+    padding-left: 15px;
+    
+} */
+
+/* .inputBox .box .icon{
+    position: relative;
+    background: magenta;
+    height: 40px;
+    min-width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 25px;
+    font-size: 1em;
+    
+   
+    /* box-shadow: 4px 4px 6px darkslateblue;
+} */
+
+.inputBox .box input
+{
+    position: relative;
+     
+    border-radius: 30px;
+    align-content: center;
+     
+
+
+}
+.log{
+    
+    /* width: 100%; */
+    position: relative;
+    width: 50%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    align-content: center;
+    padding: 2px;
+}
+.Forget{
+    color: rgb(187, 18, 18);
+}
